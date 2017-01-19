@@ -1,32 +1,32 @@
-Body {
+body {
   }
 
-H1 {
+h1 {
   font-family: arial;
 color: black;
-margin-left: 200px;
+margin-left: 200px
   background:lightgray;
   }
 
 h3 {
   font-family: arial;
 color: black;
-margin-left: 200px;
+margin-left: 200px
   }
 
 p{
   font-family: arial;
 color: black;
-margin-left: 200px;
+margin-left: 200px
   }
 
 div {
   font-family: sans-serif;
    }
 
-#columns {
+#columns{
   background-color: lightblue;
-  -webkit-column-count:3; /*chrome, safari, opera*/
+  -webkit-column-count:3; /*Chrome, Safari, Opera*/
   -moz-column-count:3;/*Firefox*/
   column-count:3;
   -webkit-column-gap:50px;/*Chrome, Safari, Opera*/
@@ -34,8 +34,8 @@ div {
   Column-gap:50px ;
   }
 
-#diff-col {
-  -webkit-column-count:3; /*chrome, safari, opera*/
+#diff-col{
+  -webkit-column-count:3; /*Chrome, Safari, Opera*/
   -moz-column-count:3;/*Firefox*/
   column-count:3;
   -webkit-column-gap:50px;/*Chrome, Safari, Opera*/
@@ -43,19 +43,19 @@ div {
   Column-gap:50px ;
   }
 
-#diff-col. left-col {
+#diff-col. left-col{
   width: 30 %
     padding: 10px;
   background-color : lightyellow;
    }
   
-  #diff-col. mid-col {
+  #diff-col. mid-col{
   width: 30 %
     padding: 10px;
   background-color: purple;
      }
     
-    #diff-col. right-col {
+    #diff-col. right-col{
   width: 30 %
     padding: 10x;
   background-color: magenta;
