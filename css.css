@@ -28,18 +28,18 @@ div {
 
 #diff-col : left-col {
   width: 30 %
-    padding: 110px;
+    padding: 15px;
   background: lightyellow;
    }
   
   #diff-col : mid-col {
   width: 30 %
-    padding: 110px;
+    padding: 15px;
   background: purple;
      }
     
     #diff-col : right-col {
   width: 30 %
-    padding: 110px;
+    padding: 15px;
   background: magenta;
        }
