@@ -2,25 +2,25 @@ body {
   }
 
 h1 {
-  font-family: arial;
+  font-family: sans-serif;
 color: black;
 margin-left: 200px
   }
 
 h3 {
-font-family: arial;
+font-family: sans-serif;
 color: black;
 margin-left: 200px
   }
 
 p{
-font-family: arial;
+font-family: sans-serif;
 color: black;
 margin-left: 200px
   }
 
 div {
-  font-family: arial;
+  font-family: sans-serif;
    }
 
 #columns{
@@ -45,7 +45,7 @@ div {
 #diff-col .left-col{
   width: 30%
   padding: 10px;
-  background-color : lightyellow;
+  background-color : yellow;
   }
   
   #diff-col .mid-col{
