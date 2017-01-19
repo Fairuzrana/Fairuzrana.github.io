@@ -9,17 +9,14 @@ margin-left: 500px;
   background:lightgray;
 }
 
-div {
-  font-family: sans-serif;
-  
-  }
 
 #columns {
   background-color: lightblue;
+  font-family: sans-serif;
   -webkit-column-count:3; /*chrome, safari, opera*/
   -moz-column-count:3;/*Firefox*/
   column-count:3;
-  webkit-column-gap:50px;/*Chrome, Safari, Opera*/
+  -webkit-column-gap:50px;/*Chrome, Safari, Opera*/
    -moz-column-gap: 50px;/ *Firefox*/
   Column-gap:50px ;
   }
@@ -28,24 +25,24 @@ div {
   -webkit-column-count:3; /*chrome, safari, opera*/
   -moz-column-count:3;/*Firefox*/
   column-count:3;
-  webkit-column-gap:50px;/*Chrome, Safari, Opera*/
+  -webkit-column-gap:50px;/*Chrome, Safari, Opera*/
    -moz-column-gap: 50px;/ *Firefox*/
   Column-gap:50px ;
   }
 
-#diff-col : left-col {
+#diff-col. left-col {
   width: 30 %
     padding: 15px;
   background: lightyellow;
    }
   
-  #diff-col : mid-col {
+  #diff-col. mid-col {
   width: 30 %
     padding: 15px;
   background: purple;
      }
     
-    #diff-col : right-col {
+    #diff-col. right-col {
   width: 30 %
     padding: 15px;
   background: magenta;
