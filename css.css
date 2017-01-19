@@ -1,8 +1,22 @@
 Body {
-Background-color: red;
+Background-color: white;
 }
 
 H1 {
-color: yellow;
-margin-left: 200px;
+  font-family: arial;
+color: black;
+margin-left: 500px;
+  background:lightgray;
 }
+
+div {
+  font-family: sans-serif;
+  -webkit-column-count:3; /*chrome, safari, opera*/
+  -moz-column-count:3;/*Firefox*/
+  column-count:3;
+  column-width:50px;
+  }
+
+#columns {
+  background-color: lightblue;
+  }
