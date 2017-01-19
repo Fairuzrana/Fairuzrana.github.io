@@ -9,7 +9,7 @@ margin-left: 200px
 
 h3 {
 font-family: sans-serif;
-color: black;
+color: blue;
 margin-left: 200px
   }
 
@@ -51,7 +51,7 @@ div {
   #diff-col .mid-col{
   width: 30%
   padding: 10px;
-  background-color: purple;
+  background-color: red;
   }
     
     #diff-col .right-col{
