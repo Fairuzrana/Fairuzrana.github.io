@@ -1,61 +1,12 @@
-body {
-  }
+img {
+	width:100px;
+	height:100px;
+}
 
-h1 {
-  font-family: sans-serif;
-color: black;
-margin-left: 200px
-  }
+table, td {
+	border: 1px #70b8ff dashed;
+}
 
-h3 {
-font-family: sans-serif;
-color: blue;
-margin-left: 200px
-  }
-
-p{
-font-family: sans-serif;
-color: black;
-margin-left: 200px
-  }
-
-div {
-  font-family: sans-serif;
-   }
-
-#columns{
-  background-color: lightblue;
-  -webkit-column-count:3; /* Chrome, Safari, Opera */
-  -moz-column-count:3;/* Firefox */
-  column-count:3;
-  -webkit-column-gap:50px;/*Chrome, Safari, Opera */
-   -moz-column-gap: 50px;/ * Firefox */
-  column-gap:50px ;
-  }
-
-#diff-col{
-  -webkit-column-count:3; /* Chrome, Safari, Opera */
-  -moz-column-count:3;/* Firefox */
-  column-count:3;
-  -webkit-column-gap:50px;/* Chrome, Safari, Opera */
-   -moz-column-gap: 50px;/ *Firefox*/
-  column-gap:50px ;
-  }
-
-#diff-col .left-col{
-  width: 30%
-  padding: 10px;
-  background-color : yellow;
-  }
-  
-  #diff-col .mid-col{
-  width: 30%
-  padding: 10px;
-  background-color: indianred;
-  }
-    
-    #diff-col .right-col{
-  width: 30%
-  padding: 10x;
-  background-color: magenta;
-  }
+thead, th {
+    text-align: center
+}
