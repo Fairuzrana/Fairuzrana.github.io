@@ -8,10 +8,10 @@
 <script src="sample-registration-form-validation.js"></script>
 </head>
     
-<body onload="document.registration.userid.focus();">
+<body>
 <h1>Registrasi Warga Desa A </h1>
     
-<form name='Registration Form' onSubmit="return formValidation();">
+<form name='registration' onSubmit="formValidation()">
 <ul>
 <li><label for="userid">User id:</label></li>
 <li><input type="text" name="userid" size="12" /></li>
@@ -36,8 +36,8 @@
 <li><input type="radio" name="gender" value="Male" /><span>Laki-laki</span></li>
 <li><input type="radio" name="gender" value="Female" /><span>Perempuan</span></li>
 <li><label id="status">Status:</label></li>
-<li><input type="checkbox" name="status" value="Married" checked /><span>Menikah</span></li>
-<li><input type="checkbox" name="status" value="Notmarried" /><span>Belum Menikah</span></li>
+<li><input type="radio" name="status" value="Married" checked /><span>Menikah</span></li>
+<li><input type="radio" name="status" value="Nonmarried" /><span>Belum Menikah</span></li>
 <li><label for="desc">Tentang Anda:</label></li>
 <li><textarea name="desc" id="desc"></textarea></li>
 <li><input type="submit" name="submit" value="Submit" /></li>
