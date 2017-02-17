@@ -1,0 +1,10 @@
+orange
+#f7b438
+green dark
+#6ba56a
+kuning 
+#fff787
+biru
+#35b2e8
+hijau muda
+#75b79a
